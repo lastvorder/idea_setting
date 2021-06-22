@@ -1,0 +1,8 @@
+<templateSet group="inser">
+  <template name="sysdate" value="$date$" description="输出当前时间字符串" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy/MM/dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
